@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #333;
+  --secondary-color: #444;
+  --overlay-color: rgba(0, 0, 0, 0.7);
+}
+
+.features {
+  display: grid;
+  grid-gap: 100px;
+  padding: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.feature {
+  border-radius: 18px solid white;
+  background: papayawhip;
+  padding: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  font-family: roboto;
+  text-align: center;
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.feature:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
