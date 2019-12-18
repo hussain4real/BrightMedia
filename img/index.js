@@ -5,6 +5,6 @@ for (let i = 0; i < myCard.length; i += 1) {
   });
 }
 
-document.getElementById('invisibleDiv').onclick = function() {
+document.getElementById('close').onclick = function() {
   document.getElementById('myOverlay').style.display = 'none';
 };
